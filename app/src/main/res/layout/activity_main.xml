@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="8"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/pizza"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/pizza_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="@string/pizza"
+                android:textColor="@android:color/background_dark" />
+
+            <Button
+                android:id="@+id/pizza_minus"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/minus" />
+
+            <EditText
+                android:id="@+id/pizza_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="@string/zero" />
+
+            <Button
+                android:id="@+id/pizza_plus"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/plus" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="@string/_2"
+                android:textColor="@android:color/background_dark" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/download"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/burger_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:text="@string/burger"
+                android:textColor="@android:color/background_dark" />
+
+            <Button
+                android:id="@+id/burger_minus"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/minus" />
+
+            <EditText
+                android:id="@+id/burger_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="@string/zero" />
+
+            <Button
+                android:id="@+id/burger_plus"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/plus" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="@string/_1"
+                android:textColor="@android:color/background_dark" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/maggi"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/maggi_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="@string/maggi"
+                android:textColor="@android:color/background_dark" />
+
+            <Button
+                android:id="@+id/maggi_minus"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/minus" />
+
+            <EditText
+                android:id="@+id/maggi_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="@string/zero" />
+
+            <Button
+                android:id="@+id/maggi_plus"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/plus" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="@string/_3"
+                android:textColor="@android:color/background_dark" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/momos"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/momos_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="@string/momos"
+                android:textColor="@android:color/background_dark" />
+
+            <Button
+                android:id="@+id/momos_minus"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/minus" />
+
+            <EditText
+                android:id="@+id/momos_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="@string/zero" />
+
+            <Button
+                android:id="@+id/momos_plus"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/plus" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="@string/_1"
+                android:textColor="@android:color/background_dark" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/coffee"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/coffee_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="@string/coffee"
+                android:textColor="@android:color/holo_green_dark"/>
+
+            <Button
+                android:id="@+id/coffee_minus"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/minus" />
+
+            <EditText
+                android:id="@+id/coffee_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="@string/zero" />
+
+            <Button
+                android:id="@+id/coffee_plus"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/plus" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="@string/_1"
+                android:textColor="@android:color/background_dark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+
+            android:background="@drawable/final1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/reset_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/reset" />
+
+            <Button
+                android:id="@+id/sum_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+
+                android:text="@string/sum" />
+
+            <TextView
+                android:id="@+id/sum_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp" />
+
+            <Button
+                android:id="@+id/next_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/next" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
